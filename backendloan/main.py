@@ -53,10 +53,11 @@ app=FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    "https://loan-default-client.vercel.app/"
 ]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins="https://loan-default-client.vercel.app/",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
