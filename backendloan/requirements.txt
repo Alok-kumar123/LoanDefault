@@ -3,5 +3,5 @@ pandas
 fastapi
 uvicorn
 pydantic
-sklearn==1.2.2
+sklearn
 pickle
