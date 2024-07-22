@@ -89,7 +89,7 @@ const Predictor = () => {
     e.preventDefault();
     setLoading(true); // Set loading state to true
     try {
-      const response = await fetch('http://localhost:8000/predict', {
+      const response = await fetch('https://loandefault.onrender.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
