@@ -9,11 +9,11 @@ import pandas as pd
 import sklearn
 
 
-file_name='C:\\Users\\alok\\OneDrive\\Desktop\\MLproject\\backendloan\\classifier.pkl'
+file_name='classifier.pkl'
 with open(file_name,'rb') as file:
     model=pickle.load(file)
 
-f_name="C:\\Users\\alok\\OneDrive\\Desktop\\MLproject\\backendloan\\Scaler.pkl"
+f_name="Scaler.pkl"
 with open(f_name,'rb') as f:
     scaler=pickle.load(f)
 
